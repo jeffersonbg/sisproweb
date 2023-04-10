@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+body{       
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #002f6c;
+}
+
+#container{
+    background-color: #404e82;
+    width: 950px;
+    visibility: visible;
+    margin: auto;
+
+}
+
+#cabecalho{
+    color: #f1f1f1;
+    width: 940px;
+    height: 120px;
+    margin:auto;
+    padding: 2px;
+    border-bottom: 8px solid #D99C44;    
+    background-image: url("/img/ufersa.png");
+}
+
+#cabecalho img{
+    margin: 5px 20px 20px 20px;
+    float: left;
+}
+
+header > h1{
+    font-weight:bolder;
+    
+}
+
+#corpo{
+    width: 940px;
+    margin: auto;
+      
+    padding: 2px;
+    border-bottom: 8px solid #D99C44;
+    display:block;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+#corpo h3{
+    color: #404e82;
+    text-align: center;
+    background-color: #f1f1f1;
+    
+}
+
+#corpo h2{
+    font-size: 24px;
+    margin: 4px;
+    text-align: justify;
+}
+
+#corpo p{
+    margin: 4px;
+}
+
+.foto{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: #D99C44 3px solid;
+    border-radius: 50%;
+}
+
+.bio p{    
+    font-size: 15px;
+    color:#404e82;
+    font-weight: 600;
+}
+
+.bio h2{
+    color: #D99C44;
+}
+
+.bio{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    border: #D99C44 3px solid;
+    background-color: #f1f1f1;
+}
+
+.bio p{
+    
+    float: inline-end;
+    align-items: center;
+}
+
+#rodape{
+    width: 940px;
+    height: 60px;
+    margin: auto;    
+    padding: 2px;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    font-weight: 600;
+    color: #404e82;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    background-color: #ffffff;
+}
+
